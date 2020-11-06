@@ -6,6 +6,11 @@ background: black;
 color: white;
 }
 
+.color {
+	background: #d3d3d3;
+	color: black;
+}
+
 .content {
 display: block;
 float:left;
