@@ -1,0 +1,35 @@
+/* Ella Adam
+11/06/2020*/
+
+body {
+background: black;
+color: white;
+}
+
+.content {
+display: block;
+float:left;
+width:85%;
+}
+
+.content h1 {
+margin-right: 10px;
+}
+
+.content p {
+margin-right: 20px;
+margin-left: 5px;
+}
+
+.sidebar {
+display: block;
+float: right;
+width: 15%;
+}
+
+.sidebar img {
+display: block;
+margin: auto;
+width: 90%;
+}
+

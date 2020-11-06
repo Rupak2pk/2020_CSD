@@ -1,0 +1,43 @@
+/* Ella Adam
+11/06/2020*/
+
+body {
+	font-family: Arial;
+		}
+
+nav {
+		display: block;
+		background-color: blue;
+		color: yellow;
+		width: 100%;
+	}
+	
+nav a {
+	color: yellow;
+	font-size: 25px;
+	text-decoration: none;
+	}
+	
+nav a:hover {
+	background-color: yellow;
+	color: blue;
+	}
+	
+.logo{
+  margin: auto;
+  width: 80%;
+}
+
+.unique {
+	float: right;
+	display: block;
+	width: 40%;
+	border-style: solid;
+    border-width: 3px;
+}
+
+.unique img {
+	display: block;
+  margin: auto;
+  width: 85%;
+  }
