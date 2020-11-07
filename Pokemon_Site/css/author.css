@@ -10,3 +10,32 @@ body {
 	background-color: #2E0854;
 	color: #dcd0ff;
 }
+
+.profile {
+	display: block;
+  	float: right;
+  }
+
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: #E3A936;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+.info {
+	text-align: center;
+	font-size: 20px;
+}
+
+p {
+	font-size: 18px;
+}
