@@ -38,3 +38,17 @@ a:active {
 p {
 	font-size: 18px;
 }
+
+/* CONTENT */
+
+.content {
+width: 85%;
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+width: 14%;
+border-color: black;
+}

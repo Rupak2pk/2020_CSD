@@ -9,3 +9,17 @@ body {
 #grad {
 	background-image: linear-gradient(#FAFAD2, white, #FAFAD2);
 }
+
+/* CONTENT */
+
+.content {
+width: 85%;
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+width: 14%;
+border-color: black;
+}
