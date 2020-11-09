@@ -6,9 +6,8 @@ background: black;
 color: white;
 }
 
-.color {
-	background: #d3d3d3;
-	color: black;
+.current {
+	text-decoration: underline;
 }
 
 .content {

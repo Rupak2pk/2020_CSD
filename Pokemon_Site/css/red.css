@@ -6,7 +6,6 @@ body {
 		  color: black;
 		}
 
-.color {
- 	background-color: #ff6565;
-	color: #ffcccb;
+.current {
+	text-decoration: underline;
 }
