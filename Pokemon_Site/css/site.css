@@ -23,11 +23,68 @@ nav a:hover {
 	color: blue;
 	}
 	
-.logo{
-  margin: auto;
-  width: 80%;
+nav #current {
+		text-decoration: underline;
 }
 
+
+/* LOGO */
+
+.logo{
+  display: block;
+  width: 100%;
+}
+
+.logo img {
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+.current {
+	text-decoration: underline;
+}
+
+/* CONTENT */
+
+.content {
+display: block;
+float: left;
+width: 60%;
+}
+
+.content h1 {
+	display: block;
+margin-right: 5px;
+}
+
+.content p {
+margin-right: 20px;
+margin-left: 5px;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+display: block;
+float: right;
+width: 15%;
+border-left: 1px solid black;
+}
+
+.sidebar * {
+display: block;
+margin: auto;
+width: 90%;
+}
+
+/* FOOTER */
+
+.footer {
+	clear: both;
+}
+
+/*
 .unique {
 	float: right;
 	display: block;
@@ -36,8 +93,10 @@ nav a:hover {
     border-width: 3px;
 }
 
+
 .unique img {
 	display: block;
 	margin: auto;
 	width: 85%;
   }
+  */

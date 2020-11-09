@@ -5,7 +5,7 @@ body {
 		  background-color: #add8e6;
 		  color: black;
 		}
-
-.current {
-	text-decoration: underline;
+		
+#grad {
+	background-image: linear-gradient(#add8e6, white, #add8e6);
 }

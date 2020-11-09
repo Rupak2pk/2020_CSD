@@ -6,6 +6,6 @@ body {
 		  color: black;
 		}
 
-.current {
-	text-decoration: underline;
+#grad {
+	background-image: linear-gradient(#90ee90, white, #90ee90);
 }

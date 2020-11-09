@@ -6,34 +6,21 @@ background: black;
 color: white;
 }
 
-.current {
-	text-decoration: underline;
-}
+/* CONTENT */
 
 .content {
-display: block;
-float:left;
-width:85%;
+width: 85%;
 }
 
-.content h1 {
-margin-right: 10px;
-}
 
-.content p {
-margin-right: 20px;
-margin-left: 5px;
-}
+/* SIDEBAR */
 
 .sidebar {
-display: block;
-float: right;
-width: 15%;
+width: 14%;
+border-color: white;
 }
 
-.sidebar img {
-display: block;
-margin: auto;
-width: 90%;
-}
 
+#grad {
+	background-image: linear-gradient(black, gray, black);
+}

@@ -6,8 +6,8 @@ body {
 		  color: black;
 		}
 
-.current {
-	text-decoration: underline;
+#grad {
+	background-image: linear-gradient(#dcd0ff, white, #dcd0ff);
 }
 
 .profile {
