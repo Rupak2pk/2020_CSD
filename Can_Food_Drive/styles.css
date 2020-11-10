@@ -1,0 +1,48 @@
+/* Ella Adam
+11/10/2020*/
+
+body {
+font-family: Quicksand;
+background: black;
+color: white;
+}
+
+
+.heading {
+font-family: Impact;
+font-size: 50px;
+display: block;
+width: 100%;
+margin: auto;
+background-image: radial-gradient(white, red);
+color: black;
+}
+
+.heading h1{
+display: block;
+text-align: center;
+height: 60px;
+}
+
+.heading meter {
+width: 72%;
+}
+
+
+/* CONTENT */
+
+.content {
+
+}
+
+/* SIDEBAR */
+
+.sidebar {
+
+}
+
+/* FOOTER */
+
+.footer {
+	clear: both;
+}
