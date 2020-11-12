@@ -1,0 +1,71 @@
+/* Ella Adam
+11/12/2020*/
+
+body {
+	  background-color: lightblue;
+	}
+
+#grad {
+	background-image: linear-gradient(#add8e6, white, #add8e6);
+}
+
+/*CONTENT*/
+
+.content {
+	font-family: Quicksand; 
+	display: block;
+	width: 100%;
+}
+
+.content img {
+	display: block;
+	width: 15%;
+	border: 2px solid black;
+	text-shadow: 2px 2px gray;
+}
+
+/*H2*/
+
+h2 {
+	font-size: 35px;
+	color: white;
+	text-shadow: 2px 2px black;
+	text-decoration: underline;
+}
+
+/*TITLE*/
+
+.header {
+	text-align: center;
+	font-size: 35px;
+}
+
+/*PARAGRAPH*/
+
+p {
+  border: 2px solid white;
+  border-radius: 8px;
+  border-style: inset;
+  background-color: white;
+}
+
+
+/*NAV*/
+nav {
+		display: block;
+		width: 100%;
+		background-color: pink;
+		font-size: 25px;
+		text-align: center;
+	}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin: auto;
+	}
+	
+nav a:hover {
+	background-color: white;
+	color: pink;
+	}
