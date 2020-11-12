@@ -2,11 +2,12 @@
 11/12/2020*/
 
 body {
-	  background-color: lightblue;
+	  background-color: #5D8AA8;
+	  
 	}
 
 #grad {
-	background-image: linear-gradient(#add8e6, white, #add8e6);
+	background-image: linear-gradient(white, #5D8AA8, white);
 }
 
 /*CONTENT*/
@@ -15,6 +16,7 @@ body {
 	font-family: Quicksand; 
 	display: block;
 	width: 100%;
+	background-color: ;
 }
 
 .content img {
@@ -22,7 +24,9 @@ body {
 	width: 15%;
 	border: 2px solid black;
 	text-shadow: 2px 2px gray;
+	margin-left: auto;
 }
+
 
 /*H2*/
 
@@ -31,6 +35,11 @@ h2 {
 	color: white;
 	text-shadow: 2px 2px black;
 	text-decoration: underline;
+	
+	  border: 2px solid white;
+	  border-radius: 8px;
+	  border-style: inset;
+	  background-color: gray;
 }
 
 /*TITLE*/
@@ -39,15 +48,16 @@ h2 {
 	text-align: center;
 	font-size: 35px;  
 	text-align: center;
+	
+	border: 2px solid white;
+	  border-radius: 8px;
+	  border-style: inset;
 }
 
 /*PARAGRAPH*/
 
 p {
-  border: 2px solid white;
-  border-radius: 8px;
-  border-style: inset;
-  background-color: white;
+
 }
 
 
@@ -99,7 +109,8 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+	background-color: white;
+	color:black;
 }
 
 /* FOOTER */
