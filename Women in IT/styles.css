@@ -15,8 +15,13 @@ body {
 .content {
 	font-family: Quicksand; 
 	display: block;
+	float: left;
 	width: 100%;
-	background-color: ;
+}
+
+.content p {
+margin-right: 20px;
+margin-left: 5px;
 }
 
 .content img {
