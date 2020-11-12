@@ -20,8 +20,9 @@ body {
 }
 
 .content p {
-margin-right: 20px;
-margin-left: 5px;
+display: block;
+
+
 }
 
 .content img {
@@ -59,10 +60,11 @@ h2 {
 	  border-style: inset;
 }
 
-/*PARAGRAPH*/
 
-p {
+/*COLOR*/
 
+.color {
+	background-color: gray;
 }
 
 
