@@ -63,6 +63,15 @@ width: 100%;
 }
 /*SIDEBAR END*/
 
+/*CALENDAR*/
+iframe {
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: 500px;
+}
+/*CALENDAR END*/
+
 
 /* FOOTER*/
 
