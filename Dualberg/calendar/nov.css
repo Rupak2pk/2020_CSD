@@ -4,5 +4,9 @@
 body {
 	text-align: center;
 	font-size: 26px;
-	background-color: #e8f4f8;
+	background-color: white;
+}
+
+th {
+	background-color: #93E9BE;
 }

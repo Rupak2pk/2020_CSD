@@ -96,6 +96,17 @@ iframe {
 	position: relative;
 }
 
+.button {
+	font-size: 25px;
+	width: 8%;
+	padding: 3;
+	
+	cursor: pointer;
+	border: 1px solid;
+  	padding: 5px;
+ 	box-shadow: 2px 2px #888888;
+}
+
 /*CALENDAR END*/
 
 
