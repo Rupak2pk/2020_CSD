@@ -3,13 +3,31 @@
 
 body {
 	font-size: 15px;
-
+	background-color: #e8f4f8;
 }
 
 .header {
+	width: 100%;
+	float: right;
+	position: relative;
+}
+
+/*IMAGE*/
+.header img {
+	width: 240px;
+	height: 170px;
+	float: left;
+	border-radius: 8px;
+	border-style: inset;
+	background-color: gray;
+	border: 2px solid gray;
+	padding: 10px;
+}
+
+.header h1 {
 	font-family: Quicksand;
 	text-align: center;
-	font-size: 50px;  
+	font-size: 60px;  
 	color: white;
 	text-shadow: 2px 2px black;
 	text-decoration: underline;
@@ -17,20 +35,23 @@ body {
 	border-radius: 8px;
 	border-style: inset;
 	background-color: gray;
+	padding: 20px 10px 30px 10px;
 }
 
 /*SIDEBAR*/
 .sidebar {
+	border-radius: 10px;
+	border-style: inset;
+	background-color: white;
 	font-size: 20px;
 	display: block;
 	float: left;
 	width: 13%;
-	height: 50%;
-	position: fixed;
+	height: 100%;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	border: 2px solid gray;
-	background-color: #D3D3D3;
 }
 
  .sidebar ul {
@@ -72,12 +93,12 @@ iframe {
 	margin: auto;
 	width: 50%;
 	height: 500px;
+	position: relative;
 }
 /*CALENDAR END*/
 
 
 /* FOOTER*/
-
 .footer {
 	clear: both;
 	text-align: center;
@@ -87,6 +108,7 @@ iframe {
 	border-radius: 5px;
 	border-style: inset;
 	background-color: gray;
+	position: relative;
 	
 }
 /* FOOTER END*/
