@@ -22,3 +22,17 @@ iframe {
 	position: absolute;
 }
 /* FOOTER END*/
+
+/*FOOTER MARGIN LEFT*/
+.moveleft {
+	margin-left: 35%;
+}
+
+/*FOOTER MARGIN RIGHT*/
+.moveright {
+	margin-right: 35%;
+}
+
+.down {
+	margin-top: 2%;
+}
