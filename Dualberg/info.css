@@ -2,6 +2,12 @@
 11/19/2020*/
 
 
+h1 {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+
 table {
   display: block;
   width: 100%;
@@ -9,10 +15,11 @@ table {
 
 img {
 	display: block;
-	width: 500px;
-	height: 400px;
+	width: 730px;
+	height: 700px;
 	padding: 4;
-	margin-left: 50%;
+	margin: auto;
+
 }
 
 td {
