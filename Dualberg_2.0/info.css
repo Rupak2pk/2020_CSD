@@ -1,0 +1,41 @@
+/*Ella Adam
+11/19/2020*/
+
+
+h1 {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+
+table {
+  display: block;
+  width: 100%;
+}
+
+img {
+	display: block;
+	width: 730px;
+	height: 700px;
+	padding: 4;
+	margin: auto;
+
+}
+
+td {
+	display: block;
+	font-size: 25px;
+	font-family: Quicksand;
+	text-align: center;
+}
+
+
+/*MARGIN LEFT*/
+.moveleft {
+	margin-left: 10%;
+}
+
+/*MARGIN RIGHT*/
+.moveright {
+	margin-right: 10%;
+}

@@ -1,0 +1,112 @@
+/* Ella Adam
+11/17/2020*/
+
+body {
+	font-size: 15px;
+	background-color: #800000;
+}
+
+.header {
+	width: 100%;
+	float: right;
+	position: relative;
+}
+
+/*IMAGE*/
+.header img {
+	width: 240px;
+	height: 170px;
+	float: left;
+	border-radius: 8px;
+	border-style: inset;
+	background-color: #dfbe58;
+	border: 2px solid #dfbe58;
+	padding: 10px;
+}
+
+.header h1 {
+	font-family: Quicksand;
+	text-align: center;
+	font-size: 60px;  
+	color: black;
+	text-shadow: 2px 2px #740a01;
+	text-decoration: underline;
+	border: 2px solid;
+	border-radius: 8px;
+	border-style: inset;
+	background-color: #dfbe58;
+	padding: 20px 10px 30px 10px;
+}
+
+/*SIDEBAR*/
+.sidebar {
+	border-radius: 10px;
+	border-style: inset;
+	background-color: #ae1c1c;
+	font-size: 20px;
+	display: block;
+	float: left;
+	width: 13%;
+	height: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: 2px solid gray;
+}
+
+ .sidebar ul {
+	  background-color: white;
+	  overflow: auto;
+  }
+  
+ .sidebar li a {
+	  display: block;
+	  color: white;
+	  padding: 28px 0px;
+	  text-decoration: none;
+	  
+}
+
+.sidebar li a.active {
+	  background-color: #ce9855;
+	  color: white;
+	  font-size: 30px;
+	  text-decoration: none;
+}
+
+.sidebar li a:hover:not(.active) {
+	  background-color: #800000;
+	  color: white;
+	  text-decoration: none;
+}
+
+.sidebar * {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+/*SIDEBAR END*/
+
+/* FOOTER*/
+.footer {
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	color:black;
+	border: 2px solid;
+	border-radius: 5px;
+	border-style: inset;
+	background-color: #dfbe58;
+	position: absolute;
+	margin-top: 1%;
+}
+
+/*IFRAME*/
+iframe {
+	display: block;
+	margin: auto;
+	width: 80%;
+	height: 550px;
+	position: relative;
+}
+/*IFRAME END*/

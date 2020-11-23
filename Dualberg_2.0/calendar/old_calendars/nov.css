@@ -1,0 +1,31 @@
+/* Ella Adam
+11/17/2020*/
+
+body {
+	text-align: center;
+	font-size: 26px;
+}
+
+th {
+	background-color: #93E9BE;
+}
+
+td {
+		background-color: white;
+	}
+	
+.button {
+display: inline;
+font-size: 25px;
+width: 15%;
+padding: 3;
+cursor: pointer;
+border: 1px solid;
+padding: 5px;
+box-shadow: 2px 2px #888888;
+}
+
+.centerbutton{
+	display: block;
+	margin: auto;
+}
