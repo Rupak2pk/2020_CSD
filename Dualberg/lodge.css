@@ -3,7 +3,7 @@
 
 body {
 	font-size: 15px;
-	background-color: #800000;
+	background-color: #2F0909;
 }
 
 .header {
@@ -19,8 +19,8 @@ body {
 	float: left;
 	border-radius: 8px;
 	border-style: inset;
-	background-color: #dfbe58;
-	border: 2px solid #dfbe58;
+	background-color: #820000;
+	border: 2px solid #820000;
 	padding: 10px;
 }
 
@@ -28,13 +28,13 @@ body {
 	font-family: Quicksand;
 	text-align: center;
 	font-size: 60px;  
-	color: black;
-	text-shadow: 2px 2px #740a01;
+	color: white;
+	text-shadow: 4px 4px black;
 	text-decoration: underline;
 	border: 2px solid;
 	border-radius: 8px;
 	border-style: inset;
-	background-color: #dfbe58;
+	background-color: #820000;
 	padding: 20px 10px 30px 10px;
 }
 
@@ -42,7 +42,7 @@ body {
 .sidebar {
 	border-radius: 10px;
 	border-style: inset;
-	background-color: #ae1c1c;
+	background-color: #820000;
 	font-size: 20px;
 	display: block;
 	float: left;
@@ -68,15 +68,15 @@ body {
 }
 
 .sidebar li a.active {
-	  background-color: #ce9855;
+	  background-color: #2B2D2F;
 	  color: white;
 	  font-size: 30px;
 	  text-decoration: none;
 }
 
 .sidebar li a:hover:not(.active) {
-	  background-color: #800000;
-	  color: white;
+	  background-color: white;
+	  color: black;
 	  text-decoration: none;
 }
 
@@ -92,11 +92,11 @@ body {
 	display: block;
 	width: 100%;
 	font-size: 20px;
-	color:black;
+	color: white;
 	border: 2px solid;
 	border-radius: 5px;
 	border-style: inset;
-	background-color: #dfbe58;
+	background-color: #820000;
 	position: absolute;
 	margin-top: 28%;
 }
