@@ -98,5 +98,15 @@ body {
 	border-style: inset;
 	background-color: #dfbe58;
 	position: absolute;
-	margin-top: 26%;
+	margin-top: 1%;
 }
+
+/*IFRAME*/
+iframe {
+	display: block;
+	margin: auto;
+	width: 80%;
+	height: 550px;
+	position: relative;
+}
+/*IFRAME END*/
