@@ -2,8 +2,31 @@
 iframe {
 	display: block;
 	margin: auto;
-	width: 80%;
-	height: 650px;
+	width: 50%;
+	height: 740px;
 	position: relative;
 }
 /*CALENDAR END*/
+
+/*SIDEBAR*/
+.sidebar {
+	font-size: 25px;
+	height: 740px;
+	width: 300px;
+	background-color: gray;
+	border: 2px solid white;
+	color: white;
+}
+
+.sizes {
+	float: left;
+}
+
+.sizes h2 {
+	font-size: 30px;
+}
+
+.sizes p {
+	font-size: 20px;
+}
+
