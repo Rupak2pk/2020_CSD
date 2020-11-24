@@ -1,0 +1,30 @@
+body {
+	font-size: 25px;
+}
+
+h1, p {
+	text-align: center;
+}
+
+.border {
+	display: block;
+	width: 100%;
+	color: black;
+	border: 2px solid;
+	border-radius: 5px;
+	border-style: inset;
+	background-color: #B99566;
+}
+	
+
+/*IMAGE*/
+img {
+	width: 650px;
+	height: 600px;
+	border-radius: 8px;
+	border-style: inset;
+	background-color: #8CE9DC;
+	border: 2px solid #8CE9DC;
+	padding: 2px;
+}
+
