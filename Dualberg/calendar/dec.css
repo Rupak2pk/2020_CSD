@@ -1,0 +1,7 @@
+.grad {
+	background-image: linear-gradient(red, white, green);
+}
+
+.mixed {
+	background-image: linear-gradient(red, white, yellow);
+}

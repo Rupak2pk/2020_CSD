@@ -1,0 +1,96 @@
+body { 
+	margin: 0;
+	font-family: Quicksand; 
+	
+	}
+/*
+h1 {
+	text-align: center;
+}
+*/
+
+p {
+	text-align: center;
+	tex-size: 25px;
+}
+
+table {
+	width: 100%; 
+	box-sizing: border-box; 
+	box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1); 
+	border-spacing: 0; 
+	background-color: white; 
+	border: 10px solid;
+	border-radius: 8px;
+	border-style: inset;
+	}
+
+/*SPACING*/
+th, td { 
+	border: 1px solid black; 
+	box-sizing: border-box; 
+	color: black; 
+	}
+
+
+/*DAYS OF WEEK*/
+th { 
+	text-align: center;
+	text-transform: uppercase; 
+	font-size:25px; 
+	font-weight:700; 
+	padding: 10px 0; 
+	color: black; 
+	background-color: #93E9BE; 
+	letter-spacing: 1px; 
+	}
+
+td { 
+	width: 14.285%; 
+	transition: all 0.3s; 
+	font-size: 14px; 
+	color: black; 
+	font-weight: 400; 
+	font-size: 20px; 
+	padding: 1.5% 1.5% 5%; 
+	vertical-align: initial; 
+	padding: 1.5% 0 ; 
+	height: 75px; 
+	}
+
+/*BUTTONS*/
+.button {
+	display: inline;
+	font-size: 25px;
+	width: 15%;
+	padding: 3;
+	cursor: pointer;
+	border: 1px solid;
+	padding: 5px;
+	box-shadow: 2px 2px #888888;
+	border-radius: 8px;
+	border-style: inset;
+	text-decoration: none;
+}
+
+.day:hover {
+	background-color: #ADD8E6; 
+	cursor:pointer; 
+	}
+
+.weekend {
+	background-color: rgba(0,0,0,0.1);
+}
+
+.centerbutton{
+	display: block;
+	margin: auto;
+}
+
+.grad {
+	background-image: linear-gradient(red, white, green);
+}
+
+.mixed {
+	background-image: linear-gradient(red, white, yellow);
+}
