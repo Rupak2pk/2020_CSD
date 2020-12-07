@@ -1,28 +1,6 @@
 /*layout.css
 Ella Adam
 13/03/2020*/
-/*
-.header {
-	grid-area: header;
-	background-color: #dfbe58;
-}
-
-.header img{
-	width: 240px;
-	height: 170px;
-	float: left;
-}
-
-
-.header h1 {
-	font-family: Quicksand;
-	text-align: center;
-	font-size: 60px;  
-	color: black;
-	width: 100%;
-	float: right;
-}
-*/
 
 .header {
 	width: 100%;
@@ -74,27 +52,38 @@ Ella Adam
 	grid-area: main;
 }
 
+/*PAGE 1*/
+.main iframe {
+	grid-area: main;
+	height: 100%;
+	width: 100%;
+}
+
 .footer {
 	display: block;
 	background: #CAAD54;
 	color: black;
-	border-radius: 1px 1px 20px 20px;
+	border-radius: 1px 1px 40px 40px;
 	border: 4px solid #CAAD54;
 	grid-area: footer;
-	font-size: 20px;
 	text-align: center;
+	padding: 1px;
+}
+
+.footer table {
+	font-size: 17px;
 }
 
 /*FOOTER MARGIN LEFT*/
 .moveleft {
-	margin-left: 17%;
+	margin-left: 15%;
 	float: left;
 	font-size: 20px;
 }
 
 /*FOOTER MARGIN CENTER*/
 .staycenter {
-	margin-left: 18%;
+	margin-left: 23%;
 	float: left;
 	font-size: 20px;
 }
@@ -125,9 +114,10 @@ a:visited {
 }
 
 body  {
+	margin: 0;
 	font-family: Quicksand;
 	background-color: #1e1e1e;
-	height: 100%;
+	height:100%;
 	display: grid;
 	grid-template-areas:  
 	'header header header header header header header header header header'
