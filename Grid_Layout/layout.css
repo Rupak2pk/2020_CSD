@@ -67,11 +67,11 @@ Ella Adam
 	border: 4px solid #CAAD54;
 	grid-area: footer;
 	text-align: center;
-	padding: 1px;
+	height: 70%;
 }
 
 .footer table {
-	font-size: 17px;
+	font-size: 20px;
 }
 
 /*FOOTER MARGIN LEFT*/
