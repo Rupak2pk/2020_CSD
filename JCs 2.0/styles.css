@@ -1,0 +1,79 @@
+/*layout.css
+Ella Adam
+13/03/2020*/
+
+body {
+	font-size: 15px;
+	background-color: #66CDAA;
+}
+
+.header {
+	width: 100%;
+	float: right;
+	position: relative;
+	border: 2px solid #66CDAA;
+}
+
+/*IMAGE*/
+.header img {
+	width: 300px;
+	height: 270px;
+	float: left;
+	background-color: #2F4F4F;
+	border: 2px solid #2F4F4F;
+	padding: 10px;
+	border-radius: 8px;
+	border-style: inset;
+}
+
+.header h1 {
+	font-family: Quicksand;
+	text-align: center;
+	font-size: 60px;  
+	color: white;
+	text-decoration: underline;
+	border: 2px solid #66CDAA;
+	background-color: #2F4F4F;
+	padding: 20px 10px 30px 10px;
+	border-radius: 8px;
+	border-style: inset;
+}
+
+/*NAV*/
+	
+.header ul {
+	font-size: 20px; 
+	border-radius: 8px;
+	border-style: inset;
+	background-color: #2F4F4F;
+	border: 2px solid #2F4F4F;
+	list-style-type: none;
+	margin-left: 45%;
+	padding: 0;
+	overflow: hidden;
+	
+	/*position: relative;
+	bottom: 70px;*/
+}
+
+.header li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+.header li:last-child {
+  border-right: none;
+}
+
+.header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header li a:hover:not(.active) {
+	background-color: white;
+	color: #2F4F4F;
+}	
