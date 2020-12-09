@@ -5,6 +5,7 @@ Ella Adam
 body {
 	font-size: 15px;
 	background-color: #66CDAA;
+	margin: 0;
 }
 
 .header {
@@ -12,18 +13,19 @@ body {
 	float: right;
 	position: relative;
 	border: 2px solid #66CDAA;
+	background-color: #2F4F4F;
+	padding: 20px 10px 30px 10px;
+	border-radius: 8px;
+	border-style: inset;
+
 }
 
 /*IMAGE*/
-.header img {
+.header img{
 	width: 300px;
-	height: 270px;
+	height: 250px;
+	/*margin-left: 42%;*/
 	float: left;
-	background-color: #2F4F4F;
-	border: 2px solid #2F4F4F;
-	padding: 10px;
-	border-radius: 8px;
-	border-style: inset;
 }
 
 .header h1 {
@@ -32,11 +34,9 @@ body {
 	font-size: 60px;  
 	color: white;
 	text-decoration: underline;
-	border: 2px solid #66CDAA;
-	background-color: #2F4F4F;
-	padding: 20px 10px 30px 10px;
-	border-radius: 8px;
-	border-style: inset;
+	bottom: 40px;
+	margin-right: 17%;
+	
 }
 
 /*NAV*/
@@ -48,8 +48,8 @@ body {
 	background-color: #2F4F4F;
 	border: 2px solid #2F4F4F;
 	list-style-type: none;
-	margin-left: 48%;
-	padding: 0;
+	margin-left: 46.3%;
+	padding: 1;
 	overflow: hidden;
 	
 	/*position: relative;
@@ -77,3 +77,13 @@ body {
 	background-color: white;
 	color: #2F4F4F;
 }	
+
+
+iframe {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 200%;
+	position: relative;
+}
+

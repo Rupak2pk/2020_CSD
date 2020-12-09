@@ -1,65 +1,17 @@
-<!DOCTYPE html>
-
-<!-- Dominic Macias
-	9/30/2020
--->
-
 <html>
+
 	<head>
-		<title>JCs</title>
-		<style>
-			body{
-				background-color:MediumAquaMarine;
-			}
-		
-			table, th, td {
-				background-color:DarkSlateGray;
-				text-align:center; 
-				border: 4px solid gray;
-				black;border-collapse:collapse; 
-				margin-top:20px;
-				margin-bottom:20px;
-				margin-left:auto; 
-				margin-right:auto; 
-				padding:5px;
-			}
-			
-			th, td, h1, p {
-				color:white;
-			}
-			
-			th {
-				font-size:30px;
-				padding:10px;
-			}
-			
-			td {
-				font-size:18px;
-			}
-			
-			h1 {
-				text-align:center;
-			}
-			
-			p {
-				text-align:center;
-			}
-		</style>
+	<link rel="stylesheet" href="./menu.css">
 	</head>
-	<body>
-		<img src="logo.png" alt="JC Logo" style="display: block; margin-top:30px; margin-bottom:30px; margin-left:auto; margin-right:auto;">
-		
-		<!-- Candy and Snacks Table -->
-		<div title="Candy and Snacks" style="background-image:url('candy.jpg'); ">
-			<br>
-			<div style="margin-left:auto; margin-right:auto; width:1000px; background-color:DarkSlateGray;">
-				<p style="color:white; font-size:72px; font-weight:bold; text-align:center;">
-					Candy And Snacks
-				</p>
-			</div>
-			<br>
+	<br>
+<!-- Candy and Snacks Table -->
+		<div class="candy">
+				<p class="sections">Candy And Snacks</p>
 		</div>
-		<table>
+		
+		<table class="table">
+				<img src="pizza.jpg" alt="Worker Holding Pizza" style="float:left; margin-top:125px; margin-left:125px; border:10px solid white">
+				<img src="popcorn.jpg" alt="Worker Holding Popcorn" style="float:right; margin-top:125px; margin-right:125px; border:10px solid white">
 			
 			<tr>
 				<th>Name</th>
@@ -158,23 +110,15 @@
 				<td>$0.50</td>
 			</tr>
 		</table>
-		
+		<br>
 		<!-- Drinks Table -->
-		<div style="background-image:url('sodas.jpg'); background">
-			<br>
-			<div style="margin-left:auto; margin-right:auto; width:1000px; background-color:DarkSlateGray;">
-				<p style="color:white; font-size:72px; font-weight:bold; text-align:center;">
-					Drink Menu<br>
-					Cans are $0.75<br>
-					20 oz bottles are $1.25<br>
-				</p>
-			</div>
-			<br>
+		<div class="drinks">
+				<p class="sections">Drinks<br></p>
+					<p class="smaller">Cans are $0.75<br>
+					20 oz bottles are $1.25<br></p>
 		</div>
-		<table>
-			<img src="teachers.jpg" alt="Teachers of JCs" style="float:left; margin-top:400px; margin-left:55px; border:10px solid white">
-			<img src="cinnamon_roll.jpg" alt="Worker Holding Cinnamon Rolls" style="float:right; margin-top:400px; margin-right:55px; border:10px solid white">
-			
+		
+		<table class="table" style="float: left">
 			<tr>
 				<th colspan="2">Cans</th>
 			</tr>
@@ -225,9 +169,10 @@
 			<tr>
 				<td colspan="2">Diet Dr. Pepper</td>
 			</tr>
-			
-			
-			<tr>
+		</table>
+		
+		<table class="table" style="float: right; height: 6.19%;">
+		<tr>
 				<th colspan="2">Bottles</th>
 			<tr>
 			<tr>
@@ -266,9 +211,12 @@
 				<td>Minute Maid Orange Juice</td>
 				<td>Minute Maid Apple Juice</td>
 			</tr>
-			
-			
-			<tr>
+		</table>
+		
+		<br>
+		
+		<table>
+		<tr>
 				<th colspan="2">Arizona 20oz cans, Dasani Water and Snapple<br>($1.00)</th>
 			<tr>
 			<tr>
@@ -286,7 +234,6 @@
 			<tr>
 				<td colspan="2">Dasani Water</td>
 			</tr>
-			
 			
 			<tr>
 				<th colspan="2">Core Power Protein Drinks<br>($2.50)</th>
@@ -316,10 +263,7 @@
 				<td colspan="2">Honest Tea 1/2 tea and 1/2 lemonade</td>
 			</tr>
 		</table>
+		</table>
 		
-		<div style="background-color:DarkSlateGray">
-			<img src="logo.png" alt="JCs" style="margin-left:910px; margin-right:910px; width:50px; height:50px;">
-		</div>
-		
-	<body>
+	</body>
 </html>

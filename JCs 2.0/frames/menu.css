@@ -1,0 +1,71 @@
+.candy {
+	background-image: url("./candy.jpg");
+	width: 100%; 
+	background-color:DarkSlateGray;
+	border: 1px solid #66CDAA;
+	padding: 0;
+	border-radius: 8px;
+
+}
+
+.drinks {
+	background-image: url("./cans.png");
+	width: 100%; 
+	background-color:DarkSlateGray;
+	border: 1px solid #66CDAA;
+	padding: 0;
+	border-radius: 8px;
+}
+	
+
+.sections {
+	color: black; 
+	font-weight: bold;
+	font-size: 40px; 
+	text-align:center;
+	text-shadow: 3px 3px white;
+	background-color: #C8C1B1;
+}
+
+.smaller {
+	color: black; 
+	font-weight: bold;
+	font-size: 25px; 
+	text-align:center;
+	text-shadow: 1px 1px white;
+	background-color: #C8C1B1;
+}
+	
+
+.table {
+	border: 5px solid #808080;
+	padding: 5px;
+	width: 30%;
+	color: white;
+	background-color: #2F4F4F;
+	margin: auto;
+	margin-top: 20px;
+	text-align:center; 
+}
+
+table, td {
+	background-color: #2F4F4F;
+	text-align:center; 
+	border: 4px solid #808080;
+	border-collapse:collapse; 
+	margin-top: 50px;
+	margin: auto;
+	padding:5px;
+	font-size: 25px; 
+	color:white;
+}
+
+th {
+	font-size:30px;
+	padding:10px;
+}
+
+td {
+	font-size:18px;
+}	
+			
