@@ -1,5 +1,5 @@
-.candy {
-	background-image: url("./candy.jpg");
+.pizza {
+	background-image: url("./pizza_logo.jpg");
 	width: 100%; 
 	background-color:DarkSlateGray;
 	border: 1px solid #66CDAA;
@@ -8,13 +8,14 @@
 
 }
 
-.drinks {
-	background-image: url("./cans.png");
+.sauce {
+	background-image: url("./sauces.jpg");
 	width: 100%; 
 	background-color:DarkSlateGray;
 	border: 1px solid #66CDAA;
 	padding: 0;
 	border-radius: 8px;
+	margin-top: 8%;
 }
 	
 
