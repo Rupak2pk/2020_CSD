@@ -5,3 +5,15 @@ iframe {
 	height: 68.9%;
 	position: relative;
 }
+
+p {
+	text-align: center;
+	font-size: 30px;  
+}
+
+
+body {
+	font-family: Quicksand;
+	color: black;
+}
+

@@ -1,0 +1,50 @@
+<!--Ella Adam 12/10/2020-->
+
+<html>
+<head>
+<link rel="stylesheet" href="./pop.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+
+
+<!-- SIDEBAR -->	
+	
+	<ul class="sidebar">
+		<li style="text-align:center; margin-top: 4px; font-size: 25px; font-weight: bold">Select your class hour:</li>
+		<li style="margin-top: 10px;"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">AM</button></li>
+		<li style="margin-top: 20px;"><button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">PM</button></li>
+		<li style="text-align:center; margin-top: 100px; font-size: 22px;">Need to buy a JCs Gift Card?<br>
+		<a href="https://stcharlessd.revtrak.net/lewis-and-clark-career-center/lcc-jc-s-store/#/f/jc-gift-cards" target="_blank">Click here --> JC's Store</a></li>
+	</ul>
+
+
+
+
+<div id="id01" class="modal">
+  
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScVoMhYY3EeAgqRND8CZVWbFJHBlDAh5Fxoes5yDfOexM2tfw/viewform?embedded=true" width="640" height="1456" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  
+</div>
+
+<div id="id02"class="modal">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLJivSWbKKlOkkrVHjM1FwVjhB7xL_oT7thVLdjReN7MT7Qw/viewform?embedded=true" width="640" height="1456" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01' 'id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!--Ella Adam 12/10/2020-->
+
+<html>
+<head>
+<link rel="stylesheet" href="./pop.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<h2>Select your class hour:</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">AM</button>
+<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">PM</button>
+
+<div id="id01" class="modal">
+  
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScVoMhYY3EeAgqRND8CZVWbFJHBlDAh5Fxoes5yDfOexM2tfw/viewform?embedded=true" width="640" height="1456" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  
+</div>
+
+<div id="id02"class="modal">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLJivSWbKKlOkkrVHjM1FwVjhB7xL_oT7thVLdjReN7MT7Qw/viewform?embedded=true" width="640" height="1456" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01' 'id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
