@@ -10,12 +10,13 @@
 
 .sauce {
 	background-image: url("./sauces.jpg");
-	width: 100%; 
+	width: 30%; 
 	background-color:DarkSlateGray;
 	border: 1px solid #66CDAA;
 	padding: 0;
 	border-radius: 8px;
-	margin-top: 8%;
+	margin-top: 1%;
+	margin-left: 35%;
 }
 	
 
@@ -54,7 +55,8 @@
 .table {
 	border: 5px solid #808080;
 	padding: 5px;
-	width: 30%;
+	width: 40%;
+	height: 10%;
 	color: white;
 	background-color: #2F4F4F;
 	margin: auto;
