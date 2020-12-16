@@ -1,0 +1,82 @@
+body {
+	font-family: Quicksand;
+	font-size: 30px;
+	background-color: #030303;
+	margin: auto;
+}
+
+
+
+#grad {
+	background-image: linear-gradient(#030303, #63F700, #030303);
+	border: 2px solid #030303;
+	border-radius: 8px;
+}
+	
+.title {
+	text-align: center;
+	color: black;
+	width: 100%;
+	float: right;
+	position: relative;
+	padding: 20px 10px 30px 10px;
+}
+
+/*IMAGE*/
+.title img {
+	width: 240px;
+	height: 170px;
+	float: left;
+	border-radius: 8px;
+}
+
+.title h1 {
+	font-size: 60px;
+	border-radius: 8px;
+}
+
+iframe {
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: 660px;
+	position: relative;
+	border-radius: 8px;
+	
+}
+
+p {
+	font-size: 25px;
+}
+
+
+.content {
+display: block;
+float: left;
+width: 60%;
+padding: 10px;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+background-image: url("code.GIF");
+display: block;
+float: right;
+border-left: 10px solid black;
+width: 20%;
+height: 660px;
+border-color: green;
+color: white;
+border-radius: 8px;
+}
+
+.sidebar * {
+display: block;
+margin: auto;
+width: 90%;
+}
+
+a {
+	color: white;
+}
